@@ -1,0 +1,33 @@
+# GitHub Pages Configuration
+# Theme for beautiful markdown rendering
+
+theme: jekyll-theme-cayman
+
+title: Pastel Bakery Co
+description: Complete design package for premium home bakery management app
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Design System
+    url: /01-design-system
+  - title: Components
+    url: /04-component-library
+  - title: Screens
+    url: /05-screen-designs
+
+# Settings
+markdown: kramdown
+plugins:
+  - jekyll-relative-links
+
+# Enable relative links
+relative_links:
+  enabled: true
+  collections: true
+
+# Include files
+include:
+  - README.md
+  - "*.md"
